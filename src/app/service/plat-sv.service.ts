@@ -1,11 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Plat } from '../plat/plat';
-
+import { Plat } from '../models/plat';
 
 const URL = "http://localhost:1300/plats";
-
 
 @Injectable({
   providedIn: 'root'

@@ -7,7 +7,7 @@ import { PlatComponent } from './plat/plat.component';
 const routes: Routes = [
   {path:'home', component : HomeComponent},
   {path:'menu', component : MenuComponent},
-  {path:'plats', component : PlatComponent},
+  {path:'plat', component : PlatComponent},
   {path:'', redirectTo:'home', pathMatch:'full'}
 ];
 

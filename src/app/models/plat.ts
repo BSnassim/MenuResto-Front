@@ -3,4 +3,5 @@ export class Plat {
     _titre: string;
     _prix: number;
     _image: string;
+    _categorie: string;
 }
