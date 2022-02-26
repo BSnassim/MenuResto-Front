@@ -12,6 +12,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxPopperModule } from 'ngx-popper';
+import { AddPlatComponent } from './add-plat/add-plat.component';
 
 
 
@@ -22,6 +23,7 @@ import { NgxPopperModule } from 'ngx-popper';
     HomeComponent,
     MenuComponent,
     PlatComponent,
+    AddPlatComponent,
     
   ],
   imports: [
